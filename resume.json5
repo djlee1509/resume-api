@@ -1,0 +1,98 @@
+{
+  "profile": ["A Mathematics graduate with professional experiences in startups and finance.",
+    "Able to effectively self-manage, independently, as well as collaborate as part of a team.",
+    "Motivated to become a Software Engineer with an interest in, solving interesting problems, challenges, and technology applications in all aspects of life and industries."],
+  "contact": {
+    "email": "djlee1509@gmail.com",
+    "phone": "+447788217070",
+    "github": "https://github.com/djlee1509"
+  },
+  "skills": {
+    "technical_skills": ["Python3", "Ruby (on Rails)", "JavaScript (React, Node, Express, AJAX, jQuery)", "HTML", "CSS",
+    "Bootstrap", "OOP", "MVC Architecture", "PostgreSQL", "Heroku", "Netlify", "Git/ GitHub"],
+    "languages": ["Korean", "English"]
+  },
+  "experience": [
+    {
+      "date": "Jan 2020 - Nov 2020",
+      "title": "Data Manager",
+      "employer": "Shipamax",
+      "responsibility": [
+        "Managing the data annotation, collection and improving the quality.",
+        "Partially automating the process using Python to prepare and review the data."
+      ]
+    },
+    {
+      "date": "Sep 2018 - Jul 2019",
+      "title": "Data Research Analyst",
+      "employer": "Freelance",
+      "responsibility": "Created dashboards to track metrics using Google Data Studio."
+    },
+    {
+      "date": "Jan 2017 – Apr 2017",
+      "title": "Financial Market Trader (Intern)",
+      "employer": "Amplify Trading",
+      "responsibility": "Developed intra-day strategies and traded based on macro fundamental analysis."
+    },
+    {
+      "date": "Jan 2016 – Mar 2017",
+      "title": "New Market Launcher (Rider Supply Operation)",
+      "employer": "Deliveroo",
+      "responsibility": "Involved in the launches of 25 cities, generating 100+ rider applications per week, 25% month on month growth and lowest rider CPA."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Billboard Spotify",
+      "tech_stack": "Python",
+      "description": "Script to scrape the list of top 100 songs on Billboard chart then, add tracks to the Spotify playlist.",
+      "github": "https://github.com/djlee1509/billboard_spotify"
+    },
+    {
+      "name": "Property Scraper",
+      "tech_stack": "Python",
+      "description": "Scraping the list of the property details available on Zillow and obtain an overview of the data and stats.",
+      "github": "https://github.com/djlee1509/property-scraper"
+    },
+    {
+      "name": "Kaggle - Titanic Machine Learning",
+      "tech_stack": ["Python", "Pandas", "NumPy", "Seaborn", "Scikit-Learn (DecisionTreeClassifier)"],
+      "description": "Data visualization, cleaning, preprocessing and apply Machine Learning model to predict the outcome.",
+      "github": "https://github.com/djlee1509/DS-ML-Kaggle"
+    },
+    {
+      "name": "Multiple Web Dev Projects & Challenges",
+      "tech_stack": ["HTML", "CSS", "JavaScript(Node, Express, jQuery, DOM)"],
+      "description": "BMI Calculator, Dice Game, Drum Kits, Clone of Simon Game",
+      "github": "https://github.com/djlee1509/web-dev-side-projects"
+    },
+    {
+      "name": "SpotBarge",
+      "tech_stack": ["RoR", "HTML", "CSS"],
+      "description": "Marketplace built within 2 weeks as a team to automate manual booking process within the Oil Shipping industry. Back-end: generating booking confirmation (pdf), listing and booking of offers, and filtering by the condition.",
+      "github": "https://github.com/sebastiaankosman/spotbarge"
+    }
+  ],
+  "education": [
+    {
+      "period": "Jul 2019 - Sep 2019",
+      "location": "Amsterdam, NL",
+      "course": "Full Stack Web Development",
+      "school": "Le Wagon Coding Bootcamp",
+      "description": ["Designed, implemented and shipped to production a clone of Airbnb and a ROR prototype deployment on Heroku.",
+        "Core concepts of OOP, Algorithms, Data Structures, and MVC Architecture.",
+        "Parsing and storing data from REST APIs or scrape using Nokogiri.",
+        "Relational Database design, CRUD with SQL, ActiveRecord, ORM.",
+        "TDD approach, regular testing with RSpec."
+      ]
+    },
+    {
+      "period": "Sep 2011 - Aug 2015",
+      "location": "Manchester, UK",
+      "course": "Mathematics",
+      "school": "The University of Manchester",
+      "description": ["Financial Mathematics", "Linear Algebra", "Probability & Statistics", "Calculus"]
+    }
+  ],
+  "interests": ["Cycling", "Travel", "Technology"]
+}
