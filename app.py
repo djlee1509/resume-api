@@ -55,30 +55,10 @@ def get_section(num, sec):
     return jsonify({'Error': f"Wrong Request! {sec} section is not in my CV."})
 
 
-# @app.route('/projects/<int:num>')
-# def get_project(num):
-#     rank = num - 1
-#     projects = data['projects']
-#
-#     if 0 < num <= len(projects):
-#         return jsonify(projects[rank])
-#     return jsonify({'Error': f"{num} is out of range in the list of my projects. Range: 1 - {len(projects)}"})
-#
-#
-# @app.route('/education/<int:num>')
-# def get_education(num):
-#     rank = num - 1
-#     education = data['education']
-#
-#     if 0 < num <= len(education):
-#         return jsonify(education[rank])
-#     return jsonify({'Error': f"{num} is out of range in the list of my education. Range: 1 - {len(education)}"})
-
-
 @app.route('/interests')
 def get_interests():
     return jsonify(data['interests'])
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
