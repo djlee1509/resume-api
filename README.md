@@ -34,13 +34,13 @@
   
 **URL**
 ----
- 
+ `https://dlee-cv-api.herokuapp.com/`
 
 **Sample Call:**
 ----
   ```bash
-    curl http://{url}/{endpoint}
+    curl https://dlee-cv-api.herokuapp.com/{endpoint}
   ```
 
 ## What I have learned
-
+* Creating a REST API using Python, Flask.
