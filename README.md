@@ -20,10 +20,10 @@
   * `/profile`: returns profile, brief introduction in a list.
   
   * `/contact/{contact_detail}`: returns contact details
-   contact_detail: email, github, phone, none - returns json data (contact details) email, github and phone number.
+   contact_detail: email, github, phone, none - returns json data (contact details) `email`, `github` and `phone`.
    
   * `/skills/{skill}`: returns json data of skills. 
-   skill: technical_skills, languages, none - returns both skills (technical skills, languages)
+   skill: `technical_skills`, `languages`, none - returns both skills (technical skills, languages)
    
   * `/{section}/:number`
   section: experience, projects, education
